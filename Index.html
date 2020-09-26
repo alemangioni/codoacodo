@@ -4,17 +4,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=8">
         <title>Colores</title>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
-        <h1>CV Dinamico - Alejandro Mangioni</h1>
         <div class="grid-container">
-            <div class="item1">Header</div>
+            <div class="item1">CV Dinamico - Alejandro Mangioni</div>
             <div class="item2">
-                <div class="flex-container" style="display:flex; justify-content: center">
-                    <div>Menu</div>
-                    <div id="mario"></div>
-                </div>
+                <nav class="flex-container horizontal">
+                    <div><a href="#">Enlace 1</a></div>
+                    <div class="submenu"><a href="#">Enlace 2</a>
+                        <div class="flex-container vertical">
+                            <div><a href="#">Enlace 2.1</a></div>
+                            <div><a href="#">Enlace 2.2</a></div>
+                            <div><a href="#">Enlace 2.3</a></div>
+                        </div>
+                    </div>
+                    <div><a href="#">Enlace 3</a></div>
+                    <div><a href="#">Enlace 4</a></div>
+                    <div><a href="#">Enlace 5</a></div>
+                    <div id="excepcion"><a href="#" id="mario"></a></div>
+                </nav>
             </div>
             <div class="item3">Main</div>  
             <div class="item4">Right</div>

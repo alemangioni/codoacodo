@@ -1,0 +1,27 @@
+#mario {
+    height: 2rem;
+    width: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation-name: camina;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transition-duration: 0.5s;
+}
+
+#mario:hover {
+    animation-name: none;
+    transform: translateY(-5px);
+    background-image: url(../img/marioSalta.png);
+}
+
+@keyframes camina {
+    0%   {background-image: url(../img/mario1.png);}
+    25%   {background-image: url(../img/mario2.png);}
+    50%   {background-image: url(../img/mario3.png);}
+    75%   {background-image: url(../img/mario2.png);}
+    100%   {background-image: url(../img/mario1.png);}
+}
