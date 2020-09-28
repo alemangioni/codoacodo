@@ -51,6 +51,7 @@
   position:fixed;
   background:#eee;
   margin-left: -1rem;
+  z-index: 1;
  }
 
  .submenu > .flex-container > div {
