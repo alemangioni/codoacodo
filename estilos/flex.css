@@ -23,7 +23,7 @@
   height: 4rem;
 }
 
-.flex-container > div {/*}:not(#excepcion) {*/
+.flex-container > div:not(#excepcion) {
   width: 12rem;
 }
 

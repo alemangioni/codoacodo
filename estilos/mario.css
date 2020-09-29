@@ -12,7 +12,7 @@
     transition-duration: 0.5s;
 }
 
-#mario:hover {
+#mario:active {
     animation-name: none;
     transform: translateY(-5px);
     background-image: url(../img/marioSalta.png);
