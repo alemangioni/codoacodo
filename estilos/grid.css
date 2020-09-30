@@ -38,7 +38,7 @@
    }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
   /* For desktop: */
   .grid-container {
     grid-template-areas:
